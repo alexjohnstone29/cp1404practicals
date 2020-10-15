@@ -7,8 +7,7 @@ def main():
     silver_taxi.start_fare()
     silver_taxi.drive(18)
     print(silver_taxi)
-    fare = silver_taxi.added_flagfall()
-    print("Total fare is ${:.2f}".format(fare))
+    print("Fare cost is ${:.2f}".format(silver_taxi.get_fare()))
 
 
 main()
