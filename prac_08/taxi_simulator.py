@@ -29,6 +29,8 @@ def main():
         print("q)uit, c)hoose taxi, d)rive")
         menu_choice = input(">>> ").lower()
     print("Total trip cost: ${:.2f}".format(total_cost))
+    print("Taxis are now:")
+    taxi_list(taxis)
 
 
 def taxi_list(taxis):
