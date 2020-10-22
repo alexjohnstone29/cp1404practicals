@@ -3,6 +3,7 @@ CP1404/CP5632 Practical
 """
 import os
 
+
 def main():
     """Process all subdirectories using os.walk()."""
     os.chdir('Lyrics')
